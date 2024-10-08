@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sidebar-container {
+  width: 250px;
+  height: 100vh;
+  background-color: #2b455b;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.topico-sidebar {
+  color: white;
+  padding-top: 20px;
+}
+
+.topico-titulo {
+  font-size: 20px;
+  padding: 0 0 6px 32px;
+}
+
+.itens-topico {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-topico {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding: 2px 0 2px 40px;
+  transition: all 0.2s ease;
+}
+
+.item-topico:hover {
+  background-color: #122a3f;
+}
+
+.sidebar-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+  background-color: #555;
+}
