@@ -1,85 +1,82 @@
 body {
-    width: 1440px;
-    height: 2200px; 
-    
+  width: 1440px;
+  height: 2200px;
 }
 .navbar {
-    background-color:  #1E5D92;
-    width: 1440px;
-    height: 81px;
-    gap: 0px;
-    opacity: 0px;
-    display: flex;
+  background-color: #1e5d92;
+  width: 100%;
+  height: 81px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 img {
-    margin-top: 21px;
-    margin-left: 33px;
+  margin-top: 21px;
+  margin-left: 33px;
 }
 .logo {
-    display: flex;
+  display: flex;
 }
 .logo-text {
-    font-family: Orbitron;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 37.62px;
-    text-align: left;
-    width: 108px;
-    height: 33px;
-    margin-top: 21px;
-    margin-left: 20px;
-    color: #FFFF;
-
+  font-family: Orbitron;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37.62px;
+  text-align: left;
+  width: 108px;
+  height: 33px;
+  margin-top: 21px;
+  margin-left: 20px;
+  color: #ffff;
 }
-.nav-itens{
-    display: flex;
-
+.nav-itens {
+  display: flex;
+  margin-right: 33px;
 }
 
 .login-button {
-    background-color: #FFFF;
-    width: 98px;
-    height: 49px;
-    margin-top: 16px;
-    margin-left: 30px;
-    border-radius: 10px;
-    border-color: #FFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-
+  background-color: #ffff;
+  width: 98px;
+  height: 49px;
+  margin-top: 16px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
 }
 
 .search-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .search-input {
-    color: #FFFF;
-    width: 546px;
-    height: 31px;
-    margin-left: 430px;
-    border-radius: 10px;
-    border-color: #FFFF;
-    outline: none;
-    border-style: none;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    padding-left: 20px;
+  color: black;
+  width: 546px;
+  height: 31px;
+  border-radius: 10px;
+  border-color: #ffff;
+  outline: none;
+  border-style: none;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .search-container img {
-    margin-top: 0px;
-    margin-left: 22px;
-    cursor: pointer;
+  margin-top: 0px;
+  margin-left: 22px;
+  cursor: pointer;
 }
