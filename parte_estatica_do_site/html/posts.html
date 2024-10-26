@@ -11,6 +11,96 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <section class="posts">
+      <h1 class="section-title">Últimas postagens</h1>
+      <!-- componente -->
+      <div class="post">
+        <p class="post-usuario">usuarioAleatorio66:</p>
+        <p class="post-conteudo">
+          Ante tortor senectus urna amet accumsan fermentum volutpat pretium.
+          Ante tortor senectus urna amet accumsan fermentum volutpat pretium.
+        </p>
+        <div class="post-tags">
+          <div class="tag java">Java</div>
+          <div class="tag python">Python</div>
+        </div>
+        <div class="post-likes-respostas">
+          <img
+            src="../images/unliked.svg"
+            class="heart-icon"
+            onclick="toggleLike(this)"
+            alt="like-icon"
+          />
+          <p class="respostas">5 respostas</p>
+        </div>
+      </div>
+      <!-- componente -->
+      <div class="post">
+        <p class="post-usuario">outroUsuario:</p>
+        <p class="post-conteudo">
+          Ante tortor senectus urna amet accumsan fermentum volutpat pretium.
+        </p>
+        <div class="post-tags">
+          <div class="tag java">Java</div>
+        </div>
+        <div class="post-likes-respostas">
+          <img
+            src="../images/unliked.svg"
+            class="heart-icon"
+            onclick="toggleLike(this)"
+            alt="like-icon"
+          />
+          <p class="respostas">1 resposta</p>
+        </div>
+      </div>
+      <!-- componente -->
+      <div class="post">
+        <p class="post-usuario">maisUmUsuario33:</p>
+        <p class="post-conteudo">
+          Ante tortor senectus urna amet accumsan fermentum volutpat pretium.
+          Ante tortor senectus urna
+        </p>
+        <div class="post-tags">
+          <div class="tag dica">Dica</div>
+          <div class="tag python">Python</div>
+        </div>
+        <div class="post-likes-respostas">
+          <img
+            src="../images/unliked.svg"
+            class="heart-icon"
+            onclick="toggleLike(this)"
+            alt="like-icon"
+          />
+          <p class="respostas">1 resposta</p>
+        </div>
+      </div>
+      <!-- componente -->
+      <div class="post">
+        <p class="post-usuario">testeDeUsuario43:</p>
+        <p class="post-conteudo">
+          Ante tortor senectus urna amet accumsan fermentum volutpat pretium.
+          Ante tortor senectus urna amet accumsan
+        </p>
+        <div class="post-tags">
+          <div class="tag banco-de-dados">Banco de dados</div>
+        </div>
+        <div class="post-likes-respostas">
+          <img
+            src="../images/unliked.svg"
+            class="heart-icon"
+            onclick="toggleLike(this)"
+            alt="like-icon"
+          />
+          <p class="respostas">2 respostas</p>
+        </div>
+      </div>
+    </section>
+    <script src="../js/posts.js"></script>
+  </body>
 </html>
