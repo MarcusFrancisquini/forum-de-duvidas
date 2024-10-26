@@ -1,0 +1,49 @@
+.post {
+  padding-top: 30px;
+  max-width: 864px;
+}
+.post-usuario {
+  color: #1e5d92;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.post-conteudo {
+  padding: 6px 0 10px 0;
+}
+.post-tags {
+  display: flex;
+  gap: 14px;
+}
+.tag {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 3px 14px 3px 14px;
+  border-radius: 10px;
+}
+.java {
+  background-color: #df7314;
+}
+.python {
+  background-color: #1e5d92;
+}
+.dica {
+  background-color: #c60808;
+}
+.banco-de-dados {
+  background-color: #117f1e;
+}
+.post-likes-respostas {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
+}
+.heart-icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.respostas {
+  color: #8a8a8a;
+  font-family: "Poppins", sans-serif;
+}
