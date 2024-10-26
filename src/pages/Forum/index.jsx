@@ -3,9 +3,6 @@ import { useState } from "react";
 import Navbar from "../../components/Navbar";
 import Sidebar from "../../components/Sidebar";
 
-//* conteúdo
-import Visitante_Home from "../Visitante_Home";
-
 function Forum() {
   const [conteudo, setConteudo] = useState("default");
 
@@ -13,7 +10,7 @@ function Forum() {
   const renderContent = () => {
     switch (conteudo) {
       default:
-        return <Visitante_Home />;
+        return <p>o conteúdo da página vai aparecer aqui</p>;
     }
   };
 
