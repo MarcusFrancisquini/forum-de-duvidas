@@ -1,41 +1,28 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./style.css";
 
-function Sidebar() {
+function Sidebar({ setConteudo }) {
   return (
     <aside className="sidebar-container">
       <div className="topico-sidebar">
         <h3 className="topico-titulo">Linguagens</h3>
         <ul className="itens-topico">
           <li>
-            <a href="#" className="item-topico">
-              Java
-            </a>
+            <button className="item-topico">Java</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Python
-            </a>
+            <button className="item-topico">Python</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              SQL
-            </a>
+            <button className="item-topico">SQL</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Html
-            </a>
+            <button className="item-topico">Html</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Css
-            </a>
+            <button className="item-topico">Css</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              JavaScript
-            </a>
+            <button className="item-topico">JavaScript</button>
           </li>
         </ul>
       </div>
@@ -43,19 +30,13 @@ function Sidebar() {
         <h3 className="topico-titulo">Publicações</h3>
         <ul className="itens-topico">
           <li>
-            <a href="#" className="item-topico">
-              Dicas
-            </a>
+            <button className="item-topico">Dicas</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Dúvidas
-            </a>
+            <button className="item-topico">Dúvidas</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Respostas
-            </a>
+            <button className="item-topico">Respostas</button>
           </li>
         </ul>
       </div>
@@ -63,34 +44,22 @@ function Sidebar() {
         <h3 className="topico-titulo">Áreas</h3>
         <ul className="itens-topico">
           <li>
-            <a href="#" className="item-topico">
-              Front-end
-            </a>
+            <button className="item-topico">Front-end</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Back-end
-            </a>
+            <button className="item-topico">Back-end</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Banco de dados
-            </a>
+            <button className="item-topico">Banco de dados</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              CyberSecurity
-            </a>
+            <button className="item-topico">CyberSecurity</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Jogos
-            </a>
+            <button className="item-topico">Jogos</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              IA
-            </a>
+            <button className="item-topico">IA</button>
           </li>
         </ul>
       </div>
@@ -98,14 +67,10 @@ function Sidebar() {
         <h3 className="topico-titulo">Recursos</h3>
         <ul className="itens-topico">
           <li>
-            <a href="#" className="item-topico">
-              Sobre o Orbis
-            </a>
+            <button className="item-topico">Sobre o Orbis</button>
           </li>
           <li>
-            <a href="#" className="item-topico">
-              Ajuda
-            </a>
+            <button className="item-topico">Ajuda</button>
           </li>
         </ul>
       </div>

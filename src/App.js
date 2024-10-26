@@ -1,12 +1,15 @@
-import Sidebar from "./components/Sidebar";
-import Navbar from "./components/Navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+//* páginas
+import Forum from "./pages/Forum";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Sidebar />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Forum />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
