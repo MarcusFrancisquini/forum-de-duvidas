@@ -4,13 +4,12 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-html,
-body {
-  height: 100%;
-}
 button {
   cursor: pointer;
 }
+.forum-content {
+  display: flex;
+}
 main {
-  margin-left: 250px;
+  flex: 1;
 }

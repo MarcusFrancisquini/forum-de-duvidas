@@ -4,7 +4,8 @@
   background-color: #2b455b;
   overflow-y: auto;
   padding-bottom: 20px;
-  position: absolute;
+  position: sticky;
+  top: 0;
 }
 .topico-sidebar {
   color: white;

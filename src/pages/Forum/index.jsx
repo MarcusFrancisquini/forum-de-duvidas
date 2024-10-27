@@ -20,8 +20,10 @@ function Forum() {
   return (
     <>
       <Navbar />
-      <Sidebar setConteudo={setConteudo} />
-      <main>{renderContent()}</main>
+      <div className="forum-content">
+        <Sidebar setConteudo={setConteudo} />
+        <main>{renderContent()}</main>
+      </div>
     </>
   );
 }
