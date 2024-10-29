@@ -1,6 +1,8 @@
-.posts {
-  padding: 25px 25px 0 25px;
-}
-.section-title {
-  color: #2b455b;
+.cards {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  column-gap: 3rem;
+  max-width: 950px;
 }

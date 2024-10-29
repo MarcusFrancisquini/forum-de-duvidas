@@ -1,5 +1,6 @@
 import "./style.css";
 import Post from "../../components/Post";
+import Tag from "../../components/Tag";
 
 function Visitante_Home() {
   //? lista de posts ilustrativos
@@ -34,19 +35,65 @@ function Visitante_Home() {
     },
   ];
 
+  //? lista de tags ilustrativos
+  const tagsInformacoes = [
+    {
+      titulo: "Python",
+      qtde: 4366,
+    },
+    {
+      titulo: "Java",
+      qtde: 6893,
+    },
+    {
+      titulo: "Golang",
+      qtde: 1002,
+    },
+    {
+      titulo: "React JS",
+      qtde: 5622,
+    },
+    {
+      titulo: "SQL",
+      qtde: 2702,
+    },
+    {
+      titulo: "JavaScript",
+      qtde: 7453,
+    },
+    {
+      titulo: "SpringBoot",
+      qtde: 3202,
+    },
+    {
+      titulo: "JavaFX",
+      qtde: 3202,
+    },
+  ];
+
   return (
-    <section className="posts">
-      <h1 className="section-title">Últimas postagens</h1>
-      {postsInformacoes.map((post, index) => (
-        <Post
-          key={index}
-          usuario={post.usuario}
-          conteudo={post.conteudo}
-          tags={post.tags}
-          respostas={post.respostas}
-        />
-      ))}
-    </section>
+    <>
+      <section className="section-container">
+        <h1 className="section-title">Últimas postagens</h1>
+        {postsInformacoes.map((post, index) => (
+          <Post
+            key={index}
+            usuario={post.usuario}
+            conteudo={post.conteudo}
+            tags={post.tags}
+            respostas={post.respostas}
+          />
+        ))}
+      </section>
+      <section className="section-container">
+        <h1 className="section-title">Tags mais usadas</h1>
+        <div className="cards">
+          {tagsInformacoes.map((tag, index) => (
+            <Tag key={index} titulo={tag.titulo} qtde={tag.qtde} />
+          ))}
+        </div>
+      </section>
+    </>
   );
 }
 
