@@ -7,7 +7,7 @@ function Navbar() {
     <div className="navbar">
       <div className="logo">
         <div className="logo-svg">
-          <img src={logo} alt="orbis-logo" />
+          <img src={logo} className="logo-orbis" alt="orbis-logo" />
         </div>
         <div className="logo-text">ORBIS</div>
       </div>

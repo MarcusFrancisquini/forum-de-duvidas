@@ -3,6 +3,9 @@ import { useState } from "react";
 import Navbar from "../../components/Navbar";
 import Sidebar from "../../components/Sidebar";
 
+//* conteúdo
+import Visitante_Home from "../Visitante_Home";
+
 function Forum() {
   const [conteudo, setConteudo] = useState("default");
 
@@ -10,15 +13,17 @@ function Forum() {
   const renderContent = () => {
     switch (conteudo) {
       default:
-        return <p>o conteúdo da página vai aparecer aqui</p>;
+        return <Visitante_Home />;
     }
   };
 
   return (
     <>
       <Navbar />
-      <Sidebar setConteudo={setConteudo} />
-      <main>{renderContent()}</main>
+      <div className="forum-content">
+        <Sidebar setConteudo={setConteudo} />
+        <main>{renderContent()}</main>
+      </div>
     </>
   );
 }
