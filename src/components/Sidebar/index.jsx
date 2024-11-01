@@ -2,75 +2,75 @@ import "./style.css";
 
 function Sidebar({ setConteudo }) {
   return (
-    <aside className="sidebar-container">
-      <div className="topico-sidebar">
-        <h3 className="topico-titulo">Linguagens</h3>
-        <ul className="itens-topico">
+    <aside class="sidebar__container">
+      <div class="topico__sidebar">
+        <h3 class="topico__titulo">Linguagens</h3>
+        <ul class="itens__topico">
           <li>
-            <button className="item-topico">Java</button>
+            <button class="item__topico">Java</button>
           </li>
           <li>
-            <button className="item-topico">Python</button>
+            <button class="item__topico">Python</button>
           </li>
           <li>
-            <button className="item-topico">SQL</button>
+            <button class="item__topico">SQL</button>
           </li>
           <li>
-            <button className="item-topico">Html</button>
+            <button class="item__topico">Html</button>
           </li>
           <li>
-            <button className="item-topico">Css</button>
+            <button class="item__topico">Css</button>
           </li>
           <li>
-            <button className="item-topico">JavaScript</button>
-          </li>
-        </ul>
-      </div>
-      <div className="topico-sidebar">
-        <h3 className="topico-titulo">Publicações</h3>
-        <ul className="itens-topico">
-          <li>
-            <button className="item-topico">Dicas</button>
-          </li>
-          <li>
-            <button className="item-topico">Dúvidas</button>
-          </li>
-          <li>
-            <button className="item-topico">Respostas</button>
+            <button class="item__topico">JavaScript</button>
           </li>
         </ul>
       </div>
-      <div className="topico-sidebar">
-        <h3 className="topico-titulo">Áreas</h3>
-        <ul className="itens-topico">
+      <div class="topico__sidebar">
+        <h3 class="topico__titulo">Publicações</h3>
+        <ul class="itens__topico">
           <li>
-            <button className="item-topico">Front-end</button>
+            <button class="item__topico">Dicas</button>
           </li>
           <li>
-            <button className="item-topico">Back-end</button>
+            <button class="item__topico">Dúvidas</button>
           </li>
           <li>
-            <button className="item-topico">Banco de dados</button>
-          </li>
-          <li>
-            <button className="item-topico">CyberSecurity</button>
-          </li>
-          <li>
-            <button className="item-topico">Jogos</button>
-          </li>
-          <li>
-            <button className="item-topico">IA</button>
+            <button class="item__topico">Respostas</button>
           </li>
         </ul>
       </div>
-      <div className="topico-sidebar">
-        <h3 className="topico-titulo">Recursos</h3>
-        <ul className="itens-topico">
+      <div class="topico__sidebar">
+        <h3 class="topico__titulo">Áreas</h3>
+        <ul class="itens__topico">
           <li>
-            <button className="item-topico">Sobre o Orbis</button>
+            <button class="item__topico">Front-end</button>
           </li>
           <li>
-            <button className="item-topico">Ajuda</button>
+            <button class="item__topico">Back-end</button>
+          </li>
+          <li>
+            <button class="item__topico">Banco de dados</button>
+          </li>
+          <li>
+            <button class="item__topico">CyberSecurity</button>
+          </li>
+          <li>
+            <button class="item__topico">Jogos</button>
+          </li>
+          <li>
+            <button class="item__topico">IA</button>
+          </li>
+        </ul>
+      </div>
+      <div class="topico__sidebar">
+        <h3 class="topico__titulo">Recursos</h3>
+        <ul class="itens__topico">
+          <li>
+            <button class="item__topico">Sobre o Orbis</button>
+          </li>
+          <li>
+            <button class="item__topico">Ajuda</button>
           </li>
         </ul>
       </div>

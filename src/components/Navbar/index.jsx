@@ -5,22 +5,22 @@ import "./style.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="logo">
-        <div className="logo-svg">
-          <img src={logo} className="logo-orbis" alt="orbis-logo" />
+      <a href="/" class="logo">
+        <div class="logo__svg">
+          <img class="logo__orbis" src={logo} alt="logo orbis" />
         </div>
-        <div className="logo-text">ORBIS</div>
-      </div>
-      <div className="nav-itens">
-        <div className="search-container">
+        <div class="logo__text">ORBIS</div>
+      </a>
+      <div class="nav__itens">
+        <div class="search__container">
           <input
             type="text"
             placeholder="Pesquise por usuário, mensagem..."
-            className="search-input"
+            class="search__input"
           />
-          <img src={search} alt="search-logo" />
+          <img src={search} alt="search icon" />
         </div>
-        <div className="login-button">Entrar</div>
+        <div class="login__button">Entrar</div>
       </div>
     </div>
   );

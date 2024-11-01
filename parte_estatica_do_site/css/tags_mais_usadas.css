@@ -1,33 +1,15 @@
-/* não precisa importar */
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-.section-title {
-  color: #2b455b;
-}
-
-.section-container {
-  padding: 25px 25px 0 25px;
-}
-
-/* importar */
 .cards {
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 4rem;
-  column-gap: 3rem;
+  row-gap: 3rem;
+  column-gap: 2rem;
   max-width: 950px;
 }
 .card {
   border: 2px solid #b8b7b7;
-  width: 200px;
-  height: 180px;
+  width: 190px;
+  height: 160px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -40,16 +22,16 @@
   background-color: #2b455b;
   border: none;
 }
-.card:hover .tag-titulo,
-.card:hover .qtde-posts {
+.card:hover .tag__titulo,
+.card:hover .qtde__posts {
   color: white;
 }
-.tag-titulo {
+.tag__titulo {
   color: #2b455b;
   font-size: 23px;
   font-weight: 600;
 }
-.qtde-posts {
+.qtde__posts {
   color: #786e6e;
   font-size: 18px;
   font-weight: 500;

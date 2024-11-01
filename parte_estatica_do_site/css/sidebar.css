@@ -1,47 +1,38 @@
-/* configurações padrões*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-button {
-  cursor: pointer;
-}
-/*? sidebar */
-.sidebar-container {
+.sidebar__container {
   width: 250px;
-  height: 100vh;
+  height: calc(100vh - 55px);
   background-color: #2b455b;
   overflow-y: auto;
   padding-bottom: 20px;
+  position: fixed;
+  top: 55px;
 }
-.topico-sidebar {
+.topico__sidebar {
   color: white;
   padding-top: 20px;
 }
-.topico-titulo {
+.topico__titulo {
   font-size: 20px;
   padding: 0 0 6px 32px;
   font-family: "Poppins", sans-serif;
 }
-.itens-topico {
+.itens__topico {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
-.sidebar-container::-webkit-scrollbar {
+.sidebar__container::-webkit-scrollbar {
   width: 8px;
 }
-.sidebar-container::-webkit-scrollbar-thumb {
+.sidebar__container::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
   border-radius: 20px;
 }
-.sidebar-container::-webkit-scrollbar-track {
+.sidebar__container::-webkit-scrollbar-track {
   background-color: #555;
 }
-.item-topico {
+.item__topico {
   width: 100%;
   text-align: left;
   padding: 2px 0 2px 40px;
@@ -51,6 +42,6 @@ button {
   font-size: 15px;
   transition: all 0.2s ease;
 }
-.item-topico:hover {
+.item__topico:hover {
   background-color: #122a3f;
 }

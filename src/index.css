@@ -7,17 +7,14 @@
 button {
   cursor: pointer;
 }
-.forum-content {
-  display: flex;
-}
 main {
-  flex: 1;
   margin-bottom: 2rem;
+  padding-left: 250px;
+  padding-top: 55px;
 }
-/* Configurações do conteúdo da página */
-.section-container {
-  padding: 25px 25px 0 25px;
+.section__container {
+  padding: 25px 90px 0 110px;
 }
-.section-title {
+.section__title {
   color: #2b455b;
 }

@@ -1,41 +1,46 @@
 .navbar {
   background-color: #1e5d92;
   width: 100%;
-  height: 81px;
+  height: 55px;
   gap: 0px;
   opacity: 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
 }
-.logo-orbis {
-  margin-top: 21px;
+.logo__svg {
+  display: flex;
+  align-items: center;
+}
+.logo__orbis {
   margin-left: 33px;
+  width: 60%;
 }
 .logo {
   display: flex;
+  text-decoration: none;
 }
-.logo-text {
+.logo__text {
   font-family: Orbitron;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 37.62px;
   text-align: left;
   width: 108px;
   height: 33px;
-  margin-top: 21px;
-  margin-left: 20px;
+  margin-left: 5px;
   color: #ffff;
 }
-.nav-itens {
+.nav__itens {
   display: flex;
   margin-right: 33px;
 }
 
-.login-button {
+.login__button {
   background-color: #ffff;
-  width: 98px;
-  height: 49px;
-  margin-top: 16px;
+  width: 90px;
+  height: 40px;
   margin-left: 30px;
   border-radius: 10px;
   border-color: #ffff;
@@ -44,18 +49,18 @@
   justify-content: center;
   cursor: pointer;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
 }
 
-.search-container {
+.search__container {
   display: flex;
   align-items: center;
 }
 
-.search-input {
+.search__input {
   color: black;
   width: 546px;
   height: 31px;
@@ -71,7 +76,7 @@
   padding-left: 20px;
 }
 
-.search-container img {
+.search__container img {
   margin-top: 0px;
   margin-left: 22px;
   cursor: pointer;

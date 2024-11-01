@@ -2,15 +2,15 @@
   padding-top: 30px;
   max-width: 864px;
 }
-.post-usuario {
+.post__usuario {
   color: #1e5d92;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
-.post-conteudo {
+.post__conteudo {
   padding: 6px 0 10px 0;
 }
-.post-tags {
+.post__tags {
   display: flex;
   gap: 14px;
 }
@@ -29,16 +29,16 @@
 .dica {
   background-color: #c60808;
 }
-.banco-de-dados {
+.banco__de__dados {
   background-color: #117f1e;
 }
-.post-likes-respostas {
+.post__likes-respostas {
   display: flex;
   align-items: center;
   gap: 30px;
   padding-top: 10px;
 }
-.heart-icon {
+.heart__icon {
   width: 26px;
   height: 26px;
   cursor: pointer;

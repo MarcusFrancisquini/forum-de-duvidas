@@ -73,8 +73,8 @@ function Visitante_Home() {
 
   return (
     <>
-      <section className="section-container">
-        <h1 className="section-title">Últimas postagens</h1>
+      <section className="section__container">
+        <h1 className="section__title">Últimas postagens</h1>
         {postsInformacoes.map((post, index) => (
           <Post
             key={index}
@@ -85,8 +85,8 @@ function Visitante_Home() {
           />
         ))}
       </section>
-      <section className="section-container">
-        <h1 className="section-title">Tags mais usadas</h1>
+      <section className="section__container">
+        <h1 className="section__title">Tags mais usadas</h1>
         <div className="cards">
           {tagsInformacoes.map((tag, index) => (
             <Tag key={index} titulo={tag.titulo} qtde={tag.qtde} />

@@ -13,24 +13,24 @@ function Post({ usuario, conteudo, tags, respostas }) {
 
   return (
     <div className="post">
-      <p className="post-usuario">{usuario}:</p>
-      <p className="post-conteudo">{conteudo}</p>
-      <div className="post-tags">
+      <p className="post__usuario">{usuario}:</p>
+      <p className="post__conteudo">{conteudo}</p>
+      <div className="post__tags">
         {tags.map((tag, index) => (
           <div
             key={index}
-            className={`tag ${tag.toLowerCase().replace(/ /g, "-")}`}
+            className={`tag ${tag.toLowerCase().replace(/ /g, "__")}`}
           >
             {tag}
           </div>
         ))}
       </div>
-      <div className="post-likes-respostas">
+      <div className="post__likes-respostas">
         <img
           src={isLiked ? liked : unliked}
-          className="heart-icon"
+          className="heart__icon"
           onClick={toggleLike}
-          alt="like-icon"
+          alt="like icon"
         />
         <p className="respostas">
           {respostas} {respostas === 1 ? "resposta" : "respostas"}
